@@ -1,1 +1,26 @@
-
+{ "members": [{
+    "memberType": "Collegiate",
+    "name": "Pink Floyd",
+    "age": "15",
+    "description": "High school student interested in developing my lego skills to compete at the national level.",
+    "picture": "https://images.pexels.com/photos/12148/b720c4c41cb9bc2cd64a95d692331521.jpg?w=940&h=650&auto=compress&cs=tinysrgb"
+    }, {
+    "memberType": "Collegiate",
+    "name": "Erica Mine",
+    "age": "10",
+    "description": "I am all into programming for youths",
+    "picture": "http://electronicsmaker.com/wp-content/uploads/2014/01/JESD_newsroom.jpg"
+      }, {
+    "memberType": "Collegiate",
+    "name": "Pascal Right",
+    "age": "8",
+    "description": "I want to be S.M.A.R.T",
+    "picture": "https://images.pexels.com/photos/246753/pexels-photo-246753.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
+  }, {
+    "memberType": "Chaperone",
+    "name": "Melanie Griffith",
+    "age": "42",
+    "description": "Cariing mother looking to give back to the community",
+    "picture": "https://images.pexels.com/photos/51953/mother-daughter-love-sunset-51953.jpeg?h=350&auto=compress"
+  }]
+}

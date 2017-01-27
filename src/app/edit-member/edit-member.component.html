@@ -1,0 +1,31 @@
+
+<div class="panel panel-default">
+  <div class="panel-header">
+    <h4>Edit Member</h4>
+  </div>
+  <div class="panel-body">
+    <label>New Member Type:</label>
+    <input [(ngModel)]="selectedMember.memberType">
+    <br>
+
+    <label>New Member Name:</label>
+    <input [(ngModel)]="selectedMember.name">
+    <br>
+
+    <label>New Member Age:</label>
+    <input [(ngModel)]="selectedMember.age">
+    <br>
+
+    <label class="col-xs-3">New Member Description:</label>
+    <textarea class ="col-xs-9" [(ngModel)]="selectedMember.description"></textarea><br>
+
+    <label>New Member Picture Link:</label>
+    <input [(ngModel)]="selectedMember.picture"><br>
+    
+    <div class="row">
+      <button (click)="beginUpdatingMember(selectedMember)">Update</button>
+      <hr>
+    </div>
+
+  </div>
+</div>

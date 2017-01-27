@@ -28,6 +28,5 @@ export class MembersRepoComponent implements OnInit {
 
   goToDetailPage(clickedMember) {
     this.router.navigate(['members', clickedMember.$key]);
-  }
-
+  };
 }
