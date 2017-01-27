@@ -21,6 +21,16 @@ h4 span{
   font-size: 24pt;
 }
 
+.panel-default {
+  background-color: lightblue!important;
+  color: black;
+}
+
+.panel-info {
+  background-color: gray!important;
+  color: antiquewhite;
+}
+
 .handwriting{
   font-family: 'Dancing Script', cursive;
   font-size: 14pt;

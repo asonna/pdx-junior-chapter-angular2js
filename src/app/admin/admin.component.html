@@ -13,11 +13,6 @@
         </select>
       </div>
 
-      <!-- <div class="space">
-        <label class="col-xs-3">Member Type:</label>
-        <input class="col-xs-9" #newMemberType>
-      </div> -->
-
       <div class="space">
         <label class="col-xs-3">Member Name:</label>
         <input class="col-xs-9" #newName>
@@ -39,7 +34,8 @@
       </div>
 
       <button (click)="submitForm(newMemberType.value, newName.value, newAge.value, newDescription.value,  newPicture.value)" class="btn btn-success">Add</button>
-
     </form>
   </div>
 </div>
+<hr>
+<app-members-repo> <app-members-repo>

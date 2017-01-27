@@ -1,6 +1,6 @@
 <h2>All Members List</h2>
 
-<div *ngFor="let member of members | async" class="panel panel-default">
+<div *ngFor="let member of members | async" class="panel panel-info">
   <div class="panel-body">
 
     <h3 (click)="goToDetailPage(member)"><em>{{member.name}}</em> <span>( {{member.age}} years old )</span></h3>
