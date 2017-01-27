@@ -5,12 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
-import { masterFirebaseConfig } from './api-keys';
-import { AngularFireModule } from 'angularfire2';
 import { AboutComponent } from './about/about.component';
 import { MemberDetailsComponent } from './member-details/member-details.component';
 import { MembersRepoComponent } from './members-repo/members-repo.component';
 import { AdminComponent } from './admin/admin.component';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
 
 
 export const firebaseConfig = {
