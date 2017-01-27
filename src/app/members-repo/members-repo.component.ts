@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireModule } from 'angularfire2';
 import { Router } from '@angular/router';
-// import { Member } from './member.model';
+import { Member } from '../member.model';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import { MemberService } from '../member.service';
 
@@ -18,10 +18,6 @@ export class MembersRepoComponent implements OnInit {
 
   constructor(private router: Router, private memberService: MemberService) {}
 
-  goToDetailPage(clickedMember) {
-    this.router.navigate(['members', clickedMember.$key]);
-  }
-
   ngOnInit() {
     this.members = this.memberService.getMembers();
   }
@@ -29,5 +25,9 @@ export class MembersRepoComponent implements OnInit {
   // showForm(){
   //   this.formShowing=true;
   // }
+
+  goToDetailPage(clickedMember) {
+    this.router.navigate(['members', clickedMember.$key]);
+  }
 
 }
