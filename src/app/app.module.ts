@@ -11,6 +11,7 @@ import { MembersRepoComponent } from './members-repo/members-repo.component';
 import { AdminComponent } from './admin/admin.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
+import { routing } from './app.routing';
 
 
 export const firebaseConfig = {
@@ -33,7 +34,7 @@ export const firebaseConfig = {
     BrowserModule,
     FormsModule,
     HttpModule,
-    // routing,
+    routing,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [],
