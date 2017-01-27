@@ -26,7 +26,6 @@ export class MemberDetailsComponent implements OnInit {
       this.memberId = urlParameters['id'];
     });
     this.memberToDisplay = this.memberService.getMemberById(this.memberId);
-    console.log(this.memberToDisplay);
   }
 
 }

@@ -35,3 +35,7 @@ h4 span{
 .space input, .space textarea {
   color: black;
 }
+
+h3 span {
+  font-size: 13pt;
+}

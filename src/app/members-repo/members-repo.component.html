@@ -3,8 +3,8 @@
 <div *ngFor="let member of members | async" class="panel panel-default">
   <div class="panel-body">
 
-    <h3 (click)="goToDetailPage(member)"><em>{{member.name}}</em> || {{member.age}} years old</h3>
+    <h3 (click)="goToDetailPage(member)"><em>{{member.name}}</em> <span>( {{member.age}} years old )</span></h3>
 
-    
+
   </div>
 </div>
