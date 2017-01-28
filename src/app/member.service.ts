@@ -31,4 +31,9 @@ export class MemberService {
       description: localUpdatedMember.description,
       picture: localUpdatedMember.picture});
   }
+
+  deleteMember(localMemberToDelete){
+    var memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);
+    memberEntryInFirebase.remove();
+  }
 }

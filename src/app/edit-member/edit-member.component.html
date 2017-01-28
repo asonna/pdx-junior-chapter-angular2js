@@ -1,30 +1,35 @@
 
-<div class="panel panel-default">
+<div class="container panel-default">
   <div class="panel-header">
     <h4>Edit Member</h4>
   </div>
   <div class="panel-body">
-    <label>New Member Type:</label>
-    <input [(ngModel)]="selectedMember.memberType">
+    <label>Member Type:</label>
+    <select>
+      <option selected="">Please Select</option>
+      <option>Chaperone</option>
+      <option>Collegiate</option>
+    </select>
     <br>
 
-    <label>New Member Name:</label>
+    <label>Member Name:</label>
     <input [(ngModel)]="selectedMember.name">
     <br>
 
-    <label>New Member Age:</label>
+    <label>Member Age:</label>
     <input [(ngModel)]="selectedMember.age">
     <br>
 
-    <label class="col-xs-3">New Member Description:</label>
+    <label class="col-xs-3">Member Details:</label>
     <textarea class ="col-xs-9" [(ngModel)]="selectedMember.description"></textarea><br>
 
-    <label>New Member Picture Link:</label>
-    <input [(ngModel)]="selectedMember.picture"><br>
-    
+    <label>Member Picture Link:</label>
+    <input [(ngModel)]="selectedMember.picture"><br><br><br>
+
     <div class="row">
-      <button (click)="beginUpdatingMember(selectedMember)">Update</button>
-      <hr>
+      <button (click)="beginUpdatingMember(selectedMember)">Update Member</button>
+
+      <button (click)="beginDeletingMember(selectedMember)">Delete Member</button>
     </div>
 
   </div>

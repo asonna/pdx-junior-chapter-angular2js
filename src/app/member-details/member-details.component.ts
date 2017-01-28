@@ -4,7 +4,8 @@ import { Location } from '@angular/common';
 import { AngularFireModule } from 'angularfire2';
 import { Member } from '../member.model';
 import { MemberService } from '../member.service';
-// import { FirebaseObjectObservable } from 'angularfire2';
+import { Router } from '@angular/router';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
 @Component({
   selector: 'app-member-details',
